@@ -1,10 +1,10 @@
-SmartDhobi — Campus Laundry Management System
+# SmartDhobi — Campus Laundry Management System
 SmartDhobi is a web application built to simplify the laundry process in hostel environments.
 It allows students to submit their laundry bags and track progress, enables staff to update washing stages, and provides administrators with complete oversight.
 This version is implemented fully on the front end using React and LocalStorage for demonstration purposes.
 
-1. Features
-Student Module:
+## Features
+I) Student Module:
 ⦁	Login using roll number
 ⦁	One-time profile setup
 ⦁	Submit laundry with Bag ID and clothes count
@@ -13,7 +13,7 @@ Student Module:
 ⦁	Confirm pickup once the bag is ready
 ⦁	View full history of previous drop-offs
 
-Staff Module:
+II) Staff Module:
 ⦁	Login using credentials
 ⦁	Dashboard view of all active bags
 ⦁	Search by Bag ID or roll number
@@ -21,21 +21,21 @@ Staff Module:
 ⦁	Update stages: Washing, Drying, Ready for Pickup
 ⦁	Ability to assign a bag to themselves
 
-Admin Module:
+III) Admin Module:
 ⦁	Login with admin credentials
 ⦁	Dashboard with system-level statistics
 ⦁	View and manage all laundry bags
 ⦁	Manage staff accounts
 ⦁	Access a complete audit log for each bag
 
-UI/UX:
+IV) UI/UX:
 ⦁	Dark theme
 ⦁	Consistent card-based layout
 ⦁	Global header for quick role navigation
 ⦁	Responsive design suitable for various screen sizes
 
 
-2. Setup Instructions
+## 2. Setup Instructions
 ⦁	Install Node.js (v18 or above).
 ⦁	Clone or download the repository.
 ⦁	Open a terminal inside the project directory.
@@ -44,24 +44,28 @@ UI/UX:
 ⦁	Open the URL displayed in the terminal (for example: http://localhost:5173).
 No backend setup is required; LocalStorage is used for data in this demo.
 
-3. Tech Stack Used
-Frontend:
+## 3. Tech Stack Used
+I) Frontend:
 ⦁	React
 ⦁	React Router DOM
 ⦁	Vite
 ⦁	JavaScript (ES6+)
 ⦁	CSS
 
-Tools:
+II) Tools:
 ⦁	Node.js
 ⦁	npm
 
-4. Assumptions and Bonus Features
+## 4. Assumptions and Bonus Features
 Assumptions
 ⦁	LocalStorage is used as the data store since no backend API is connected.
 ⦁	Authentication for all roles is handled on the client side and kept simple for demonstration.
 ⦁	Bag IDs are assumed to be unique and validated at the interface level.
 ⦁	The laundry process follows a fixed sequence of stages.
+
+## 5. Video Link
+
+open here : - https://drive.google.com/file/d/1T77sdh7wfVhomYnA10zw2XJMiP7dIMPO/view?usp=sharing
 
 Bonus Features
 ⦁	A clean dark-mode interface for better visual consistency.
